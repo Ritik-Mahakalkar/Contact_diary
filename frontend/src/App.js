@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className="container py-4">
-      <h1 className="text-center mb-4">Invoice Management</h1>
+      <h1 className="text-center mb-4">Contact Diary</h1>
 
       <div className="row mb-5">
         <div className="col-md-6">
@@ -82,7 +82,7 @@ function App() {
 
         <div className="col-md-6">
           <div className="card">
-            <div className="card-header">Create Invoice</div>
+            <div className="card-header">Create Contact</div>
             <div className="card-body">
               <form onSubmit={handleInvoiceSubmit}>
                 <div className="mb-3">
@@ -118,7 +118,7 @@ function App() {
                   ))}
                 </ul>
 
-                <button type="submit" className="btn btn-primary">Create Invoice</button>
+                <button type="submit" className="btn btn-primary">Create Contact</button>
               </form>
             </div>
           </div>
@@ -126,7 +126,7 @@ function App() {
       </div>
 
       <div className="card mb-4">
-        <div className="card-header">Invoices</div>
+        <div className="card-header">Contacts</div>
         <div className="card-body">
           <table className="table table-bordered text-center">
             <thead>
